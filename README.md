@@ -1,1 +1,3 @@
-# Project Name: Final project
+# Final project
+
+Final project
