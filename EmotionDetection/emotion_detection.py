@@ -13,6 +13,9 @@ def emotion_detector(text_to_analyze):
         json=input_json
     )
 
+    print(response.status_code)
+    print(response.text)
+
     result_dict = json.loads(response.text)
 
     emotions = result_dict["emotionPredictions"][0]["emotion"]
