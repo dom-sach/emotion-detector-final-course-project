@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from emotion_detection import emotion_detector
+from emotionDetection import emotion_detector
 import json
 
 my_app = Flask(__name__)
